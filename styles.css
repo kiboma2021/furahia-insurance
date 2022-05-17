@@ -15,6 +15,7 @@ html {
 
 body {
   background-color: white;
+  max-width: 768px;
 }
 
 a {
@@ -25,6 +26,7 @@ a {
   background-color: rgb(49, 47, 47);
   display: flex;
   height: 4vh;
+  display: none;
 }
 
 .upper-left {
@@ -58,6 +60,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 .logo {
@@ -76,11 +79,49 @@ a {
 .lower-mennu-content {
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 .lower-mennu-content > a {
-  padding-right: 5vw;
+  padding: 10px;
 }
+
+.self-service {
+  border: 5px solid red;
+  color: red;
+  font-weight: bold;
+}
+
+.hamburger {
+  display: block;
+  align-items: flex-start;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 4px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: #fff;
+}
+
+
 
 
 
