@@ -256,6 +256,51 @@ article {
   max-width: 600px;
 }
 
+/*MANAGEMENT */
+
+.management {
+  padding: 2% 5%;
+}
+
+.management-img {
+  width: 100px;
+  height: 100px;
+}
+
+.management-profile {
+  display: flex;
+}
+
+.prof-hist {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 20px;
+  margin-top: -20px;
+}
+
+.person-name {
+  font-weight: bold;
+}
+
+.mag-title {
+  font-size: 14px;
+  font-style: italic;
+  color: red;
+}
+
+.mag-desc {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
 
 
 
