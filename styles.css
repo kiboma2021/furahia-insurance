@@ -94,7 +94,7 @@ a {
 
 .hamburger {
   display: block;
-  align-items: flex-start;
+  padding-top: 3vh;
 }
 
 .bar {
@@ -121,6 +121,84 @@ a {
   background-color: #fff;
 }
 
+article {
+  padding: 5vh;
+  margin-top: -80px;
+}
+
+#intro1 {
+  color: rgb(206, 6, 6);
+}
+
+#intro2 {
+  color: rgb(206, 6, 6);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#intro3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#intro4 {
+  font-size: 20px;
+  margin-top: -30px;
+}
+
+.products1 {
+  font-size: 2rem;
+  font-weight: 400;
+  position: relative;
+  padding-bottom: 1rem;
+  color: var(--primary);
+  text-align: center;
+}
+
+.products1::after {
+  border-bottom: 2px solid red;
+  position: absolute;
+  height: 1px;
+  width: 3rem;
+  content: '';
+  bottom: 0;
+  inset-inline-start: 50%;
+  margin-inline-start: -1.5rem;
+}
+
+.product-img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.products-categories {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.product-life {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.product-name {
+  color: red;
+  min-width: 80px;
+}
+
+.header2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 20px 0px 20px;
+  margin: 0px 20px 0px 20px;
+}
 
 
 
