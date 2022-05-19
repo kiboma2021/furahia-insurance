@@ -154,7 +154,10 @@ a {
 
 article {
   padding: 5vh;
-  margin-top: -80px;
+  margin-top: -70px;
+  background-image : url('imgs/group-photo-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #intro1 {
@@ -163,12 +166,16 @@ article {
 
 #intro2 {
   color: rgb(206, 6, 6);
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
+  background-image : url('imgs/shape-set-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px 2px black;
 }
 
 #intro3 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -203,9 +210,16 @@ article {
 }
 
 .products-categories {
-  background-color: black;
-  color: white;
   padding: 20px;
+  color: white;
+  background: repeating-linear-gradient(
+    90deg,
+    #1f1f24,
+    #1f1f24 1px,
+    #040404 1px,
+    #040404 2px  
+
+  );
 }
 
 .product-life {
@@ -214,16 +228,22 @@ article {
   align-items: center;
   gap: 20px;
   margin: 20px;
+  background-color: #303033;
+  opacity: 0.5;
 }
 
 .product-name {
   color: red;
   min-width: 80px;
+  font-weight: bold;
 }
 
 .header2 {
   display: flex;
   flex-direction: column;
+  background-image : url('imgs/group-photo-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   gap: 10px;
   justify-content: flex-start;
   align-items: flex-start;
@@ -231,10 +251,10 @@ article {
   margin: 0px 20px 0px 15px;
 }
 
-
-
-
-
+.intro-words {
+  background-color: #fff;
+  padding: 20px;
+}
 
 
 
