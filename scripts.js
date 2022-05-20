@@ -15,13 +15,13 @@ crossBut.addEventListener('click', () => {
   body.classList.remove('no-scroll');
 });
 
-document.querySelectorAll('.nav_link').forEach((n) =>
+document.querySelectorAll('.nav_link').forEach((n) => {
   n.addEventListener('click', () => {
     hamBug.classList.remove('active');
     navMenu.classList.remove('active');
     body.classList.remove('no-scroll');
   })
-);
+});
 
 const $worksSection = document.getElementById('add-management');
 
@@ -84,14 +84,14 @@ for (let i = 0; i < ManagementList.length; i++) {
   const count = i;
   card.classList.add('card', 'card-bg', `card-bg-${count}`);
 
-    card.innerHTML = `<div class="management-profile col-6 ${count > 1 ? 'hide-management' : ''}">
-    <img class="management-img" src="${ManagementList[i].image}" alt="Chairman">
-    
-    <div class="prof-hist">
-      <p> <span class="person-name"> ${ManagementList[i].name} </span> <br>
-        <span class="mag-title">${ManagementList[i].role}</span> <br><br>            
-        <span class="mag-desc"> ${ManagementList[i].decription}</span> </p>
-    </div>
+  card.innerHTML = `<div class="management-profile col-6 ${count > 1 ? 'hide-management' : ''}">
+  <img class="management-img" src="${ManagementList[i].image}" alt="Chairman">
+  
+  <div class="prof-hist">
+    <p> <span class="person-name"> ${ManagementList[i].name} </span> <br>
+      <span class="mag-title">${ManagementList[i].role}</span> <br><br>            
+      <span class="mag-desc"> ${ManagementList[i].decription}</span> </p>
+  </div>
   </div>`;
   $worksSection.appendChild(card);
 }

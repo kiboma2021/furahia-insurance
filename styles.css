@@ -145,7 +145,7 @@ a {
 article {
   padding: 5vh;
   margin-top: -70px;
-  background-image : url('imgs/group-photo-bg.jpg');
+  background-image: url('imgs/group-photo-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -158,7 +158,7 @@ article {
   color: rgb(206, 6, 6);
   font-size: 400%;
   font-weight: bold;
-  background-image : url('imgs/shape-set-01.png');
+  background-image: url('imgs/shape-set-01.png');
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: 3px 3px 5px rgb(144, 8, 8);
@@ -208,7 +208,6 @@ article {
     #1f1f24 1px,
     #040404 1px,
     #040404 2px  
-
   );
 }
 
@@ -240,14 +239,14 @@ article {
 .header2 {
   display: flex;
   flex-direction: column;
-  background-image : url('imgs/group-photo-bg.jpg');
+  background-image: url('imgs/group-photo-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   gap: 10px;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 20px 0px 15px;
-  margin: 0px 20px 0px 15px;
+  padding: 0.1px 20px 0.1px 15px;
+  margin: 0.1px 20px 0.1px 15px;
 }
 
 .intro-words {
@@ -256,7 +255,7 @@ article {
   max-width: 600px;
 }
 
-/*MANAGEMENT */
+/* MANAGEMENT */
 
 .management {
   padding: 2% 5%;
@@ -276,7 +275,7 @@ article {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0px 20px;
+  padding: 0.1px 20px;
   margin-top: -20px;
 }
 
@@ -314,11 +313,8 @@ article {
   display: none;
 }
 
-
-
-
-
 /* For mobile phones: */
+
 [class*="col-"] {
   width: 100%;
   float: left;
@@ -344,17 +340,6 @@ article {
     display: none;
     cursor: pointer;
   }
-
-  /*
-  .lower-mennu-content {
-    display: flex;
-    left: 0;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-    
-  }
-*/
 
   .lower-mennu-content {
     position: relative;
@@ -424,7 +409,6 @@ article {
     align-items:center;
     gap: 1px;
     min-height: 400px;
-
   }
 
   .product-img {
@@ -439,6 +423,4 @@ article {
   .hide-management {
     display: flex;
   }
-  
-
 }
