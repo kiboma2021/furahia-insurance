@@ -202,7 +202,8 @@ article {
 .products-categories {
   padding: 20px;
   color: white;
-  background: repeating-linear-gradient(
+  background:
+  repeating-linear-gradient(
     90deg,
     #1f1f24,
     #1f1f24 1px,
@@ -323,7 +324,6 @@ article {
 
 /* Desktop */
 @media only screen and (min-width: 768px) {
-  
   .col-1 {
     width: 8.33%;
   }
@@ -371,7 +371,7 @@ article {
   .col-12 {
     width: 100%;
   }
-  
+
   .hamburger {
     display: none;
     cursor: pointer;
@@ -425,7 +425,7 @@ article {
     display: none;
   }
 
- .header2 {
+  .header2 {
     padding-top: 50px;
   }
 
