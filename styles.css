@@ -207,7 +207,7 @@ article {
     #1f1f24,
     #1f1f24 1px,
     #040404 1px,
-    #040404 2px  
+    #040404 2px
   );
 }
 
@@ -323,18 +323,54 @@ article {
 
 /* Desktop */
 @media only screen and (min-width: 768px) {
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+  
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
   
   .hamburger {
     display: none;
@@ -363,13 +399,14 @@ article {
     color: black;
     font-weight: 600;
     font-size: 20px;
-    line-height: auto;
     display: flex;
     align-items: center;
   }
 
   .lower-mennu {
-    padding: 0px 5%;
+    padding: 0.1px 5%;
+    justify-content: space-between;
+    gap: 20%;
   }
 
   .upper-mennu {
@@ -388,12 +425,7 @@ article {
     display: none;
   }
 
-  .lower-mennu {
-    justify-content: space-between;
-    gap: 20%;
-  }
-
-  .header2 {
+ .header2 {
     padding-top: 50px;
   }
 
@@ -406,7 +438,7 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     gap: 1px;
     min-height: 400px;
   }
