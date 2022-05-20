@@ -203,13 +203,13 @@ article {
   padding: 20px;
   color: white;
   background:
-  repeating-linear-gradient(
-    90deg,
-    #1f1f24,
-    #1f1f24 1px,
-    #040404 1px,
-    #040404 2px
-  );
+    repeating-linear-gradient(
+      90deg,
+      #1f1f24,
+      #1f1f24 1px,
+      #040404 1px,
+      #040404 2px
+    );
 }
 
 .product-life {
