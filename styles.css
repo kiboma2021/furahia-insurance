@@ -648,7 +648,7 @@ article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height:55vh;
+    min-height: 55vh;
   }
 
   .product-img {
