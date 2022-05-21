@@ -118,7 +118,7 @@ ul {
   align-items: center;
 }
 
-.lower-mennu-content > ul >li {
+.lower-mennu-content > ul > li {
   padding-right: 4vw;
 }
 
@@ -201,7 +201,6 @@ article {
   font-weight: 400;
   position: relative;
   padding-bottom: 1rem;
-  color: var(--primary);
   text-align: center;
   color: white;
 }
@@ -222,7 +221,6 @@ article {
   font-weight: 400;
   position: relative;
   padding-bottom: 1rem;
-  color: var(--primary);
   text-align: center;
   color: black;
 }
@@ -238,7 +236,7 @@ article {
   margin-inline-start: -1.5rem;
 }
 
-.manager-image  {
+.manager-image {
   position: relative;
 }
 
@@ -256,7 +254,6 @@ article {
 
 .products-categories {
   padding: 20px;
-  color: white;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -598,7 +595,7 @@ article {
     justify-content: space-between;
   }
 
-  .lower-mennu-content > ul > li >a {
+  .lower-mennu-content > ul > li > a {
     font-size: 15px;
   }
 
@@ -652,8 +649,8 @@ article {
   .product-img {
     height: 3rem;
     flex-grow: 0;
-    padding: 0px;
-    margin: 0px;
+    padding: 0.01px;
+    margin: 0.01px;
   }
 
   #management .more {
@@ -672,7 +669,7 @@ article {
   #intro1 {
     font-size: 150%;
   }
-  
+
   #intro2 {
     font-size: 400%;
   }
@@ -684,5 +681,5 @@ article {
     justify-content: center;
     margin: 1% 30%;
     text-decoration: underline;
-  }  
+  }
 }

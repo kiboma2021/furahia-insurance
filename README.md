@@ -11,6 +11,7 @@ Sample design of an insurance website
 
 [Live Demo Link](https://kiboma2021.github.io/furahia-insurance/)
 
+[Video Link](https://www.loom.com/share/58df37e56c2144c7b574b25bcc7bf568)
 
 ## Getting Started
 
