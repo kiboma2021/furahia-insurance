@@ -9,7 +9,7 @@ Sample design of an insurance website
 
 ## Live Demo
 
-[Live Demo Link](https://kiboma2021.github.io/Ben_Portfolio/)
+[Live Demo Link](https://kiboma2021.github.io/furahia-insurance/)
 
 
 ## Getting Started

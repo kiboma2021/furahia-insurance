@@ -29,13 +29,13 @@ const ManagementList = [
   {
     name: 'Grace Okello',
     role: 'Chairman',
-    image: './imgs/salome_mwangi.jpeg',
+    image: './imgs/manager6.jpg',
     decription: 'Miss Grace is a Non-Executive Director and Chairman of Furahia Insurance and its subsidiaries having been first appointed to the Board in 2004.',
   },
   {
     name: 'Ann Rose',
     role: 'Board Member',
-    image: './imgs/ann.jpeg',
+    image: './imgs/manager3.jpg',
     decription: 'Ann Rose was appointed to the Board on 28th March 2019 and \
      a member of the Board Audit & Compliance Committee. He is a Fellow Member of the \
     Institute of Certified Public Accountants of Kenya (ICPAK) and the Association \
@@ -44,14 +44,14 @@ const ManagementList = [
   {
     name: 'Nameless Wahu',
     role: 'Board Member',
-    image: './imgs/wahu.jpeg',
+    image: './imgs/manager7.jpg',
     decription: 'Miss. Wahu is a Non-Executive Director and Chairman of Furahia Insurance and its \
     subsidiaries having been first appointed to the Board in 2004.',
   },
   {
     name: 'Jonathan Mwamburi',
     role: 'Director',
-    image: './imgs/jacob.jpeg',
+    image: './imgs/manager1.jpg',
     decription: 'Mr. Jonathan was appointed to the Board in 2006. \
     He has extensive international experience in the insurance industry and is \
     currently the Head of Insurance for the Aga Khan Fund for Economic Development \
@@ -60,7 +60,7 @@ const ManagementList = [
   {
     name: 'Ibraham John',
     role: 'CEO',
-    image: './imgs/man2.jpeg',
+    image: './imgs/manager4.jpg',
     decription: 'Ibraham John has more than 20 years of management experience in \
     financial services, accounting, finance, investment analysis and risk management. \
     He is a member of the Canadian Institute of Chartered Accountants.',
@@ -68,7 +68,7 @@ const ManagementList = [
   {
     name: 'Martha Kombe',
     role: 'General Manager',
-    image: './imgs/martha.jpeg',
+    image: './imgs/manager8.jpg',
     decription: 'Martha Kombe is an experienced investment professional, \
     passionate about financial markets and the investment industry. Overtime, he has \
     built a track record of devising investment and asset allocation strategies, \
@@ -85,8 +85,9 @@ for (let i = 0; i < ManagementList.length; i++) {
   card.classList.add('card', 'card-bg', `card-bg-${count}`);
 
   card.innerHTML = `<div class="management-profile col-6 ${count > 1 ? 'hide-management' : ''}">
-  <img class="management-img" src="${ManagementList[i].image}" alt="Chairman">
-  
+  <div class="manager-image">
+    <img class="management-img" src="${ManagementList[i].image}" alt="Chairman">
+  </div>
   <div class="prof-hist">
     <p> <span class="person-name"> ${ManagementList[i].name} </span> <br>
       <span class="mag-title">${ManagementList[i].role}</span> <br><br>            
