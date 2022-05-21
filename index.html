@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
   <title>Furahia Insurance</title>
 </head>
+
 <body>
   <header>
     <div class="upper-mennu">
       <div class="upper-left">
-      
+
       </div>
       <div class="upper-right">
-          <a class="bi bi-facebook" href="#"></a>
-          <a class="bi bi-twitter" href="#"></a>
-          <a href="#">Kenya</a>
-          <a href="#">ContactUs</a>
-          <a href="#">Log Out</a>
+        <a class="bi bi-facebook" href="#"></a>
+        <a class="bi bi-twitter" href="#"></a>
+        <a href="#">Contact Us</a>
+        <a href="#">Login/Register</a>
       </div>
     </div>
     <div class="lower-mennu">
-      <a href="#" class="logo-bar">
+      <a href="./index.html" class="logo-bar">
         <img class="logo" src="./imgs/logo.jpeg" alt="Company Logo">
         <div class="logo-writing">
-          <h3>Furahia Insurance <br><span class="logo-writing2">Since 1965</span></h3>
-          
+          <h3>Furahia <br><span class="logo-writing2">Since 1965</span></h3>
         </div>
       </a>
       <div class="lower-mennu-content">
         <div class="cross-button">X</div>
-        <a href="#About" class="nav_link">About</a>
-        <a href="#Life" class="nav_link">Life</a>
-        <a href="#Health" class="nav_link">Health</a>
-        <a href="#General" class="nav_link">General</a>
-        <a href="#News" class="nav_link">News</a>
-        <a href="#nav_link" class="self-service nav_link">Self Service</a>
+        <ul>
+          <li><a href="./index.html" class="nav_link">Home</a></li>
+          <li><a href="#Life" class="nav_link">Life</a></li>
+          <li><a href="#Health" class="nav_link">Health</a></li>
+          <li><a href="#General" class="nav_link">General</a></li>
+          <li><a href="./about.html" class="nav_link">About</a></li>
+          <li><a href="#" id="contact" class="nav_link">Contact</a></li>
+        </ul>
       </div>
     </div>
 
@@ -50,39 +52,96 @@
       <h2 id="intro1">Enjoy life na Furahia Insurance!!</h2>
     </div>
   </header>
-  <section>
-    <article>    
-      <h1 id="intro2">PROMOTING A LIFE <br> FREE LIFESTYLE <br> 2022</h1>  
-      <p>Peace of mind comes from knowing you and your family are covered and protected by the best health insurance cover</p>
+  <main>
+    <article>
+      <h1 id="intro2">PROMOTING A LIFE <br> FREE LIFESTYLE <br> 2022</h1>
+      <p class="intro-words">Peace of mind comes from knowing you and your family are covered and protected by the best
+        health insurance cover</p>
       <h1 id="intro3">50 YEARS IN BUSINESS </h1>
       <P id="intro4">We advise, Insure and Invest</P>
     </article>
-    <section class="row products-categories">
+    <section class="products-categories">
       <h3 class="products1">Main Products</h3>
 
-      <div class="product-life">
-        <img class="product-img" src="./imgs/life.jpeg" alt="Life Insurance">
-        <h2 class="product-name">Life</h2>
-        <p class="product-description">Our job is to help you choose the right insurance cover for you so that you may Live Free!</p>
-      </div>
+      <div class="insurance-products">
+        <div class="row">
+          <div class="product-life col-2" id="Life">
+            <img class="product-img" src="./imgs/icons-1.svg" alt="Life Insurance">
+            <h2 class="product-name">Life</h2>
+            <p class="product-description">Our job is to help you choose the right insurance cover!</p>
+          </div>
 
-      <div class="product-life">
-        <img class="product-img" src="./imgs/health.jpeg" alt="Health Insurance">
-        <h2 class="product-name">Health</h2>
-        <p class="product-description">Your family’s health and safety means the world to you. We understand that and want to help 
-          you protect your loved ones from situations beyond your control.</p>
-      </div>
+          <div class="product-life col-2" id="Health">
+            <img class="product-img" src="./imgs/icons-2.svg" alt="Health Insurance">
+            <h2 class="product-name">Health</h2>
+            <p class="product-description">Your family’s health and safety means the world to you.</p>
+          </div>
 
-      <div class="product-life">
-        <img class="product-img" src="./imgs/matatu.jpeg" alt="Kenyan Matatu">
-        <h2 class="product-name">General</h2>
-        <p class="product-description">Let’s cover what you love and what you have worked hard to build.</p>
+          <div class="product-life col-2" id="General">
+            <img class="product-img" src="./imgs/icons-3.svg" alt="Kenyan Matatu">
+            <h2 class="product-name">General</h2>
+            <p class="product-description">Let’s cover what you love and have worked hard to build.</p>
+          </div>
+
+          <div class="product-life col-2" id="General2">
+            <img class="product-img" src="./imgs/icons-4.svg" alt="Kenyan Matatu">
+            <h2 class="product-name">GroupLife</h2>
+            <p class="product-description">We cover group schemes and organisations.</p>
+          </div>
+
+          <div class="product-life col-2" id="General3">
+            <img class="product-img" src="./imgs/icons-5.svg" alt="Kenyan Matatu">
+            <h2 class="product-name">Pensions</h2>
+            <p class="product-description">Let’s us help you save for your retirement plan.</p>
+          </div>
+        </div>
+      </div>
+      <div class="get-quote">
+        <h2>See Other Products</h2>
       </div>
 
     </section>
 
-  </section>
-  
+    <section class="management" id="management">
+      <h2 class="products2">Management</h2>
+
+      <div class="row">
+        <div id="add-management"></div>
+      </div>
+
+      <a href="#" id="toggle-more-speakers" class="more">
+        More
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+      </a>
+    </section>
+
+    <section class="sponsors">
+      <h3 class="products1">Sponsors</h3>
+      <div class="sponsors2">
+        <ul>
+          <li><img class="sponser-img" src="./imgs/coi.png" alt="sponsor"></li>
+          <li><img class="sponser-img" src="./imgs/GoK.png" alt="sponsor"></li>
+          <li><img class="sponser-img" src="./imgs/IRA.png" alt="sponsor"> </li>
+          <li><img class="sponser-img" src="./imgs/RBA.png" alt="sponsor"></li>
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+  <footer>
+    <div class="footer-mainpage">
+      <img id="footer-img" src="./imgs/company-logo.PNG" alt="IRA">
+      <p id="footer-wordings">Regulated by the Insurance Regulatory Authority (IRA) <br> <br>
+        We are a world class provider of insurance and other financial services.
+        More than five decades,We have shouldered the risks of Kenyans by providing
+        flexible insurance and financial services built around their needs.
+      </p>
+    </div>
+  </footer>
   <script src="scripts.js"></script>
 </body>
+
 </html>
