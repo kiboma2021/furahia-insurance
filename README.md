@@ -2,6 +2,10 @@
 
 Sample design of an insurance website
 
+![furahia1](https://github.com/kiboma2021/furahia-insurance/assets/93031593/456e7574-b5f4-420f-9aea-181242481569)
+![furahia2](https://github.com/kiboma2021/furahia-insurance/assets/93031593/7b6e9054-d7eb-41e0-be2b-37dde61ead64)
+![furahia3](https://github.com/kiboma2021/furahia-insurance/assets/93031593/cb941afb-57a7-4922-b1e1-a0f98f5a9692)
+
 ## Built With
 
 - HTML
